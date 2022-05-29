@@ -12,5 +12,5 @@ include_once '../util.php';
 deleteUserSession();
  
 // ログイン画面に遷移
-header('Location: ' . HOME_URL . 'Controllers/sign-in.php');
+header('Location: ' . HOME_URL . 'views/sign-in.php');
 exit;
